@@ -1,0 +1,11 @@
+{
+  "firstname" : "Mohamed",
+  "lastname" : "Belal",
+  "totalprice" : 123,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2020-01-01",
+    "checkout" : "2021-01-01"
+  },
+  "additionalneeds" : "ice cream"
+}

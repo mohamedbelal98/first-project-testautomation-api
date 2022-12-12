@@ -1,0 +1,287 @@
+[INFO ] 2022-12-11 11:08:22.692 [main] ReportManager - 
+################################################################################################################################################
+Detected SHAFT Engine Version: "SHAFT Engine v6.4.20221204"
+################################################################################################################################################
+[INFO ] 2022-12-11 11:08:23.658 [main] ReportManager - Loaded OpenCV "opencv_java455".
+[DEBUG] 2022-12-11 11:08:23.778 [main] Graph - [Graph] ADDING NODE RestfulBooker.beforeClass()[pri:0, instance:null] 327217297
+[DEBUG] 2022-12-11 11:08:23.779 [main] Graph - [Graph] ================ SORTING
+[DEBUG] 2022-12-11 11:08:23.781 [main] Graph - [Graph] =============== DONE SORTING
+[DEBUG] 2022-12-11 11:08:23.781 [main] Graph - [Graph] ====== SORTED NODES
+[DEBUG] 2022-12-11 11:08:23.781 [main] Graph - [Graph] ====== END SORTED NODES
+[DEBUG] 2022-12-11 11:08:23.787 [main] Graph - [Graph] ADDING NODE LogsHelper.setupActivities(org.testng.ITestContext)[pri:0, instance:null] 2146660425
+[DEBUG] 2022-12-11 11:08:23.787 [main] Graph - [Graph] ================ SORTING
+[DEBUG] 2022-12-11 11:08:23.788 [main] Graph - [Graph] =============== DONE SORTING
+[DEBUG] 2022-12-11 11:08:23.788 [main] Graph - [Graph] ====== SORTED NODES
+[DEBUG] 2022-12-11 11:08:23.788 [main] Graph - [Graph] ====== END SORTED NODES
+[DEBUG] 2022-12-11 11:08:23.789 [main] Graph - [Graph] ADDING NODE LogsHelper.teardownActivities()[pri:0, instance:null] -599874672
+[DEBUG] 2022-12-11 11:08:23.789 [main] Graph - [Graph] ================ SORTING
+[DEBUG] 2022-12-11 11:08:23.789 [main] Graph - [Graph] =============== DONE SORTING
+[DEBUG] 2022-12-11 11:08:23.789 [main] Graph - [Graph] ====== SORTED NODES
+[DEBUG] 2022-12-11 11:08:23.789 [main] Graph - [Graph] ====== END SORTED NODES
+[DEBUG] 2022-12-11 11:08:23.792 [main] Graph - [Graph] ADDING NODE LogsHelper.setupActivities(org.testng.ITestContext)[pri:0, instance:com.shaft.tools.listeners.LogsHelper@177ede17] -1778813202
+[DEBUG] 2022-12-11 11:08:23.792 [main] Graph - [Graph] ================ SORTING
+[DEBUG] 2022-12-11 11:08:23.792 [main] Graph - [Graph] =============== DONE SORTING
+[DEBUG] 2022-12-11 11:08:23.792 [main] Graph - [Graph] ====== SORTED NODES
+[DEBUG] 2022-12-11 11:08:23.792 [main] Graph - [Graph] ====== END SORTED NODES
+[DEBUG] 2022-12-11 11:08:23.795 [main] Graph - [Graph] ADDING NODE RestfulBooker.deleteBooking()[pri:0, instance:RestfulBookeroObjectModel.RestfulBooker@6b832551] 867434573
+[DEBUG] 2022-12-11 11:08:23.795 [main] Graph - [Graph] ================ SORTING
+[DEBUG] 2022-12-11 11:08:23.795 [main] Graph - [Graph] =============== DONE SORTING
+[DEBUG] 2022-12-11 11:08:23.795 [main] Graph - [Graph] ====== SORTED NODES
+[DEBUG] 2022-12-11 11:08:23.795 [main] Graph - [Graph] ====== END SORTED NODES
+[DEBUG] 2022-12-11 11:08:23.797 [main] Graph - [Graph] ADDING NODE LogsHelper.teardownActivities()[pri:0, instance:com.shaft.tools.listeners.LogsHelper@177ede17] -1022055289
+[DEBUG] 2022-12-11 11:08:23.797 [main] Graph - [Graph] ================ SORTING
+[DEBUG] 2022-12-11 11:08:23.797 [main] Graph - [Graph] =============== DONE SORTING
+[DEBUG] 2022-12-11 11:08:23.797 [main] Graph - [Graph] ====== SORTED NODES
+[DEBUG] 2022-12-11 11:08:23.797 [main] Graph - [Graph] ====== END SORTED NODES
+[INFO ] 2022-12-11 11:08:23.801 [main] Utils - [TestNG] Running:
+  /Users/radwa/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+[INFO ] 2022-12-11 11:08:23.822 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		"com.shaft.tools.listeners.LogsHelper.setupActivities"
+################################################################################################################################################
+[INFO ] 2022-12-11 11:08:23.835 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2022-12-11 11:08:23.974 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2022-12-11 11:08:24.303 [main] ReportManager - Initializing Important Links...
+[INFO ] 2022-12-11 11:08:24.310 [main] ReportManager - Initializing Custom Properties...
+[INFO ] 2022-12-11 11:08:24.350 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		"RestfulBookeroObjectModel.RestfulBooker.beforeClass"
+################################################################################################################################################
+[DEBUG] 2022-12-11 11:08:25.711 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2022-12-11 11:08:25.779 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2022-12-11 11:08:26.393 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2022-12-11 11:08:26.394 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2022-12-11 11:08:26.394 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2022-12-11 11:08:26.395 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2022-12-11 11:08:26.395 [main] DefaultHttpClient - Attempt 1 to execute request
+[DEBUG] 2022-12-11 11:08:26.395 [main] DefaultClientConnection - Sending request: POST /auth HTTP/1.1
+[DEBUG] 2022-12-11 11:08:26.395 [main] wire -  >> "POST /auth HTTP/1.1[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.396 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.396 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.396 [main] wire -  >> "Content-Length: 45[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.396 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.396 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.396 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.396 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.396 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.396 [main] headers - >> POST /auth HTTP/1.1
+[DEBUG] 2022-12-11 11:08:26.396 [main] headers - >> Accept: */*
+[DEBUG] 2022-12-11 11:08:26.396 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2022-12-11 11:08:26.397 [main] headers - >> Content-Length: 45
+[DEBUG] 2022-12-11 11:08:26.397 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2022-12-11 11:08:26.397 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2022-12-11 11:08:26.397 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+[DEBUG] 2022-12-11 11:08:26.397 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2022-12-11 11:08:26.397 [main] wire -  >> "{"password":"password123","username":"admin"}"
+[DEBUG] 2022-12-11 11:08:26.535 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.536 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.537 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.537 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.537 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.537 [main] wire -  << "Content-Length: 27[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.537 [main] wire -  << "Etag: W/"1b-bwVBn5K2L0A7k4lV7lPQx4aMncM"[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.537 [main] wire -  << "Date: Sun, 11 Dec 2022 09:08:26 GMT[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.537 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.537 [main] wire -  << "[\r][\n]"
+[DEBUG] 2022-12-11 11:08:26.538 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2022-12-11 11:08:26.538 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2022-12-11 11:08:26.538 [main] headers - << Server: Cowboy
+[DEBUG] 2022-12-11 11:08:26.538 [main] headers - << Connection: keep-alive
+[DEBUG] 2022-12-11 11:08:26.538 [main] headers - << X-Powered-By: Express
+[DEBUG] 2022-12-11 11:08:26.538 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2022-12-11 11:08:26.538 [main] headers - << Content-Length: 27
+[DEBUG] 2022-12-11 11:08:26.538 [main] headers - << Etag: W/"1b-bwVBn5K2L0A7k4lV7lPQx4aMncM"
+[DEBUG] 2022-12-11 11:08:26.538 [main] headers - << Date: Sun, 11 Dec 2022 09:08:26 GMT
+[DEBUG] 2022-12-11 11:08:26.538 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2022-12-11 11:08:26.541 [main] DefaultHttpClient - Connection can be kept alive indefinitely
+[DEBUG] 2022-12-11 11:08:26.547 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2022-12-11 11:08:26.547 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2022-12-11 11:08:26.575 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[DEBUG] 2022-12-11 11:08:26.599 [main] wire -  << "{"token":"22896ac8c5f1660"}"
+[DEBUG] 2022-12-11 11:08:26.600 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3eb6d7a9
+[DEBUG] 2022-12-11 11:08:26.600 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2022-12-11 11:08:27.202 [main] ReportManager - Successfully created attachment "API Request - Specifications"
+[INFO ] 2022-12-11 11:08:27.203 [main] ReportManager - Successfully created attachment "API Request - JSON Body"
+[INFO ] 2022-12-11 11:08:27.204 [main] ReportManager - Successfully created attachment "API Response - JSON Body"
+[DEBUG] 2022-12-11 11:08:27.298 [main] CompiledPath - Evaluating path: $['token']
+[INFO ] 2022-12-11 11:08:27.302 [main] ReportManager - Get response jsonvalue "token".
+[ERROR] 2022-12-11 11:08:27.302 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2022-12-11 11:08:27.303 [main] ReportManager - Successfully created attachment "SHAFT Engine Logs - Current Method log: beforeClass"
+[INFO ] 2022-12-11 11:08:27.333 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution:	"1 out of 1" test cases in the current suite
+Test Method:		"RestfulBookeroObjectModel.RestfulBooker.deleteBooking"
+################################################################################################################################################
+[DEBUG] 2022-12-11 11:08:27.361 [main] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2022-12-11 11:08:27.361 [main] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2022-12-11 11:08:27.899 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2022-12-11 11:08:27.899 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2022-12-11 11:08:27.899 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2022-12-11 11:08:27.899 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2022-12-11 11:08:27.899 [main] DefaultHttpClient - Attempt 1 to execute request
+[DEBUG] 2022-12-11 11:08:27.900 [main] DefaultClientConnection - Sending request: DELETE /booking/8 HTTP/1.1
+[DEBUG] 2022-12-11 11:08:27.900 [main] wire -  >> "DELETE /booking/8 HTTP/1.1[\r][\n]"
+[DEBUG] 2022-12-11 11:08:27.900 [main] wire -  >> "Content-Type: */*; charset=UTF-8[\r][\n]"
+[DEBUG] 2022-12-11 11:08:27.900 [main] wire -  >> "cookie: token=22896ac8c5f1660[\r][\n]"
+[DEBUG] 2022-12-11 11:08:27.900 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2022-12-11 11:08:27.900 [main] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2022-12-11 11:08:27.900 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2022-12-11 11:08:27.900 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+[DEBUG] 2022-12-11 11:08:27.900 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2022-12-11 11:08:27.900 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2022-12-11 11:08:27.900 [main] headers - >> DELETE /booking/8 HTTP/1.1
+[DEBUG] 2022-12-11 11:08:27.900 [main] headers - >> Content-Type: */*; charset=UTF-8
+[DEBUG] 2022-12-11 11:08:27.901 [main] headers - >> cookie: token=22896ac8c5f1660
+[DEBUG] 2022-12-11 11:08:27.901 [main] headers - >> Accept: */*
+[DEBUG] 2022-12-11 11:08:27.901 [main] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2022-12-11 11:08:27.901 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2022-12-11 11:08:27.901 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+[DEBUG] 2022-12-11 11:08:27.901 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2022-12-11 11:08:28.041 [main] wire -  << "HTTP/1.1 201 Created[\r][\n]"
+[DEBUG] 2022-12-11 11:08:28.041 [main] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2022-12-11 11:08:28.042 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2022-12-11 11:08:28.042 [main] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2022-12-11 11:08:28.042 [main] wire -  << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[DEBUG] 2022-12-11 11:08:28.042 [main] wire -  << "Content-Length: 7[\r][\n]"
+[DEBUG] 2022-12-11 11:08:28.042 [main] wire -  << "Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"[\r][\n]"
+[DEBUG] 2022-12-11 11:08:28.042 [main] wire -  << "Date: Sun, 11 Dec 2022 09:08:28 GMT[\r][\n]"
+[DEBUG] 2022-12-11 11:08:28.042 [main] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2022-12-11 11:08:28.042 [main] wire -  << "[\r][\n]"
+[DEBUG] 2022-12-11 11:08:28.042 [main] DefaultClientConnection - Receiving response: HTTP/1.1 201 Created
+[DEBUG] 2022-12-11 11:08:28.043 [main] headers - << HTTP/1.1 201 Created
+[DEBUG] 2022-12-11 11:08:28.043 [main] headers - << Server: Cowboy
+[DEBUG] 2022-12-11 11:08:28.043 [main] headers - << Connection: keep-alive
+[DEBUG] 2022-12-11 11:08:28.043 [main] headers - << X-Powered-By: Express
+[DEBUG] 2022-12-11 11:08:28.043 [main] headers - << Content-Type: text/plain; charset=utf-8
+[DEBUG] 2022-12-11 11:08:28.043 [main] headers - << Content-Length: 7
+[DEBUG] 2022-12-11 11:08:28.043 [main] headers - << Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
+[DEBUG] 2022-12-11 11:08:28.043 [main] headers - << Date: Sun, 11 Dec 2022 09:08:28 GMT
+[DEBUG] 2022-12-11 11:08:28.043 [main] headers - << Via: 1.1 vegur
+[DEBUG] 2022-12-11 11:08:28.043 [main] DefaultHttpClient - Connection can be kept alive indefinitely
+[DEBUG] 2022-12-11 11:08:28.043 [main] RestAssuredHttpBuilder - Parsing response as: text/plain; charset=utf-8
+[DEBUG] 2022-12-11 11:08:28.043 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2022-12-11 11:08:28.044 [main] ReportManager - Response status code: "201", status line: "HTTP/1.1 201 Created"
+[DEBUG] 2022-12-11 11:08:28.049 [main] wire -  << "Created"
+[DEBUG] 2022-12-11 11:08:28.049 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4c431e2a
+[DEBUG] 2022-12-11 11:08:28.049 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2022-12-11 11:08:28.057 [main] ReportManager - Successfully created attachment "API Request - Specifications"
+[INFO ] 2022-12-11 11:08:28.058 [main] ReportManager - Successfully created attachment "API Response - Body"
+[INFO ] 2022-12-11 11:08:28.061 [main] ReportManager - Successfully created attachment "SHAFT Engine Logs - Current Method log: deleteBooking"
+[INFO ] 2022-12-11 11:08:28.147 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		"com.shaft.tools.listeners.LogsHelper.teardownActivities"
+################################################################################################################################################
+[INFO ] 2022-12-11 11:08:28.153 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2022-12-11 11:08:28.154 [main] ReportManager - Successfully created attachment "SHAFT Engine Logs - Execution log"
+[INFO ] 2022-12-11 11:08:28.154 [main] ReportManager - 
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: "SHAFT Engine v6.4.20221204"
+SHAFT Engine is licensed under the MIT License: [https://github.com/ShaftHQ/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
+[INFO ] 2022-12-11 11:08:28.154 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2022-12-11 11:08:28.155 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
+[INFO ] 2022-12-11 11:08:28.155 [main] ReportManager - File Action "ReadFileAsByteArray" successfully performed. With the following test data "File Path: "/Users/radwa/IdeaProjects/shaft_project/target/logs/log4j.log"".
+[INFO ] 2022-12-11 11:08:28.156 [main] ReportManager - Successfully created attachment "SHAFT Engine Logs - Execution log: 20221211-110828"
+[INFO ] 2022-12-11 11:08:28.156 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"".
+[DEBUG] 2022-12-11 11:08:28.180 [main] cache - Couldn't find template in cache for "spark/spark.spa.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.181 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.182 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.183 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.183 [main] cache - Loading template for "spark/spark.spa.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+[DEBUG] 2022-12-11 11:08:28.262 [main] cache - Couldn't find template in cache for "commons/commons-variables.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.263 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.263 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.263 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.263 [main] cache - Loading template for "commons/commons-variables.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+[DEBUG] 2022-12-11 11:08:28.340 [main] cache - Couldn't find template in cache for "commons/commons-macros.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.340 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.340 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.340 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.340 [main] cache - Loading template for "commons/commons-macros.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+[DEBUG] 2022-12-11 11:08:28.345 [main] cache - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.346 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.346 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.346 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.346 [main] cache - Loading template for "spark/macros/attributes.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+[DEBUG] 2022-12-11 11:08:28.347 [main] cache - Couldn't find template in cache for "spark/macros/log.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.348 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.348 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.348 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.348 [main] cache - Loading template for "spark/macros/log.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+[DEBUG] 2022-12-11 11:08:28.349 [main] cache - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.350 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.350 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.350 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.350 [main] cache - Loading template for "spark/macros/recurse_nodes.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+[DEBUG] 2022-12-11 11:08:28.353 [main] cache - "spark/macros/log.ftl"("en_EG", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2022-12-11 11:08:28.353 [main] cache - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.353 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.353 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.354 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.354 [main] cache - Loading template for "spark/macros/attr-common.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+[DEBUG] 2022-12-11 11:08:28.359 [main] cache - Couldn't find template in cache for "spark/partials/head.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.359 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.359 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.360 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.360 [main] cache - Loading template for "spark/partials/head.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+[DEBUG] 2022-12-11 11:08:28.361 [main] cache - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.362 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.362 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.362 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.362 [main] cache - Loading template for "commons/commons-inject-css.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+[DEBUG] 2022-12-11 11:08:28.363 [main] cache - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.363 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.363 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.363 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.363 [main] cache - Loading template for "spark/partials/navbar.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+[DEBUG] 2022-12-11 11:08:28.367 [main] cache - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.368 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.368 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.368 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.368 [main] cache - Loading template for "spark/partials/sidenav.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+[DEBUG] 2022-12-11 11:08:28.376 [main] cache - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.376 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.376 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.376 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.376 [main] cache - Loading template for "spark/partials/dashboard.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+[DEBUG] 2022-12-11 11:08:28.394 [main] cache - Couldn't find template in cache for "spark/partials/test.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.395 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.395 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.395 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.395 [main] cache - Loading template for "spark/partials/test.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+[DEBUG] 2022-12-11 11:08:28.401 [main] cache - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.402 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.402 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.402 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.402 [main] cache - Loading template for "spark/partials/standard-content.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+[DEBUG] 2022-12-11 11:08:28.405 [main] cache - Couldn't find template in cache for "spark/partials/exception.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.406 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.406 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.406 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.406 [main] cache - Loading template for "spark/partials/exception.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+[DEBUG] 2022-12-11 11:08:28.407 [main] cache - Couldn't find template in cache for "spark/partials/log.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.407 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.408 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.408 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.408 [main] cache - Loading template for "spark/partials/log.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+[DEBUG] 2022-12-11 11:08:28.408 [main] cache - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.409 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.409 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.409 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.409 [main] cache - Loading template for "spark/partials/scripts.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+[DEBUG] 2022-12-11 11:08:28.410 [main] cache - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2022-12-11 11:08:28.410 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_EG.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.410 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+[DEBUG] 2022-12-11 11:08:28.410 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+[DEBUG] 2022-12-11 11:08:28.410 [main] cache - Loading template for "commons/commons-inject-js.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/radwa/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+[INFO ] 2022-12-11 11:08:28.412 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "extent-reports/ExtentReports_11-12-2022_11-08-23-0975-AM.html"".
+[INFO ] 2022-12-11 11:08:28.413 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "extent-reports/ExtentReports_11-12-2022_11-08-23-0975-AM.html"".
+[INFO ] 2022-12-11 11:08:28.413 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "extent-reports/ExtentReports_11-12-2022_11-08-23-0975-AM.html"".
+[INFO ] 2022-12-11 11:08:28.416 [main] ReportManager - File Action "ReadFile" successfully performed. With the following test data "File Path: "/Users/radwa/IdeaProjects/shaft_project/extent-reports/ExtentReports_11-12-2022_11-08-23-0975-AM.html"".
+[INFO ] 2022-12-11 11:08:28.417 [main] ReportManager - Successfully created attachment "HTML - Extent Emailable Execution Report"
+[INFO ] 2022-12-11 11:08:28.417 [main] ReportManager - Attempting to perform the following command locally. Command: "sh generate_allure_report.sh"
+[DEBUG] 2022-12-11 11:08:28.493 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:49889<->107.22.57.98:443 closed
