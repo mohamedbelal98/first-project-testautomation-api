@@ -61,65 +61,6 @@ public class RestfulBooker_LinearDesign {
 
     }
 
-    @Test
-    public void updateBooking(){
-
-        SHAFT.API apiObject = new SHAFT.API("https://restful-booker.herokuapp.com/");
-
-        JSONObject updateBookingBody = new JSONObject();
-        updateBookingBody.put("firstname", "Mohamed");
-        updateBookingBody.put("additionalneeds", "latte");
-        JSONObject updatebookingDates = new JSONObject();
-        updatebookingDates.put("checkin", "2020-01-01");
-        updatebookingDates.put("checkout", "2021-01-01");
-        updateBookingBody.put("bookingdates", updatebookingDates);
-        updateBookingBody.put("totalprice", 123);
-        updateBookingBody.put("depositpaid", true);
-        updateBookingBody.put("lastname", "Belal");
-
-        JSONObject authentication = new JSONObject();
-        authentication.put("username" , "admin");
-        authentication.put("password" , "password123");
-
-        Response createToken = apiObject.post("auth").
-                setContentType(ContentType.JSON).
-                setRequestBody(authentication).
-                perform();
-
-        String token = RestActions.getResponseJSONValue(createToken,"token");
-
-        apiObject.put("booking/" + "8").setContentType(ContentType.JSON).
-                setTargetStatusCode(201).
-                addHeader("Cookie", "token=" + token);
-
-//        Response updateBookingReq = apiObject.put("booking/1").setRequestBody(updateBookingBody).
-//                setContentType(ContentType.JSON).performRequest();
-//
-//        String updateId = RestActions.getResponseJSONValue(updateBookingReq,"bookingid");
-//        apiObject.get("booking" + updateId).perform();
-
-    }
-
-    @Test
-    public void partialUpdateBooking(){
-        SHAFT.API apiObject = new SHAFT.API("https://restful-booker.herokuapp.com/");
-
-        JSONObject authentication = new JSONObject();
-        authentication.put("username","admin");
-        authentication.put("password","password123");
-        Response createToken = apiObject.post("auth").
-                setContentType(ContentType.JSON).
-                setRequestBody(authentication).perform();
-
-        String token = RestActions.getResponseJSONValue(createToken,"token");
-
-        apiObject.patch("booking" + "1").
-                setContentType(ContentType.JSON).
-                setTargetStatusCode(201).
-                addHeader("cookie","token=" + token);
-
-    }
-
     @Test//(dependsOnMethods = {"createBooking"})
     public void deleteBooking(){
         SHAFT.API apiObject = new SHAFT.API("https://restful-booker.herokuapp.com/");

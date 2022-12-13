@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 public class RestfulBooker {
 
+    //variables
     private SHAFT.API apiObject;
     private RestfulBookerApi restfulBookerApi;
     private RestfulBookerApiBooking restfulBookerApiBooking;
@@ -21,16 +22,19 @@ public class RestfulBooker {
         restfulBookerApi.login("admin","password123");
     }
 
+    //get list of booking ids
     @Test
     public void getBookIds(){
         restfulBookerApiBooking.getBookIds();
     }
 
+    //get specific book with details
     @Test
     public void getBooking(){
         restfulBookerApiBooking.getBooking("7");
     }
 
+    //create booking with json object
     @Test
     public void createBooking(){
         Response createBookingReq = restfulBookerApiBooking.createBooking("Josh","super bowls","2018-01-01","2019-01-01",
@@ -50,6 +54,8 @@ public class RestfulBooker {
                 isEqualTo("2019-01-01").perform();
     }
 
+
+    //delete book
     @Test
     public void deleteBooking(){
         restfulBookerApiBooking.deleteBooking("8");

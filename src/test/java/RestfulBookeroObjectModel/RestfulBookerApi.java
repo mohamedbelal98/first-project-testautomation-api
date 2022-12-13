@@ -8,15 +8,20 @@ import org.json.simple.JSONObject;
 
 public class RestfulBookerApi {
 
+    //variables
     private SHAFT.API apiObject;
     private String auth_serviceName = "auth";
     public static final String BASE_URL = "https://restful-booker.herokuapp.com/";
 
-
+    //Constructor
     public RestfulBookerApi(SHAFT.API apiObject) {
         this.apiObject = apiObject;
     }
 
+    /*
+    * log in function with username and password
+    * get token to add cookies to use
+    *  */
     public void login(String userName, String password){
 
         JSONObject authentication = new JSONObject();

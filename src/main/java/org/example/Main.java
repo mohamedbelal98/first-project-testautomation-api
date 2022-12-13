@@ -33,7 +33,7 @@ public class Main {
         then().
                 contentType(ContentType.JSON);
     }
-//print body of link
+//print body of api response
     @Test
     public void requestLog(){
         given().

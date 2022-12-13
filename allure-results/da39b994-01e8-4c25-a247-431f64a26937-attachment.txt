@@ -1,7 +1,0 @@
-[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @11-12-2022 11:08:26.0574 AM
-[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @11-12-2022 11:08:26.0582 AM
-[ReportManager] Perform request "POST | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/auth | Content Type: application/json | Response Time: 1176ms". @11-12-2022 11:08:27.0201 AM
-[ReportManager] Successfully created attachment "API Request - Specifications" @11-12-2022 11:08:27.0202 AM
-[ReportManager] Successfully created attachment "API Request - JSON Body" @11-12-2022 11:08:27.0203 AM
-[ReportManager] Successfully created attachment "API Response - JSON Body" @11-12-2022 11:08:27.0203 AM
-[ReportManager] Get response jsonvalue "token". @11-12-2022 11:08:27.0302 A
