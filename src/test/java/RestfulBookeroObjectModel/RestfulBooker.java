@@ -2,6 +2,8 @@ package RestfulBookeroObjectModel;
 
 import com.shaft.api.RestActions;
 import com.shaft.driver.SHAFT;
+import com.shaft.tools.io.ExcelFileManager;
+import com.shaft.tools.io.JSONFileManager;
 import io.restassured.response.Response;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -12,30 +14,39 @@ public class RestfulBooker {
     private SHAFT.API apiObject;
     private RestfulBookerApi restfulBookerApi;
     private RestfulBookerApiBooking restfulBookerApiBooking;
+    ExcelFileManager excelFileManager;
+    JSONFileManager jsonFileManager;
 
     @BeforeClass
     public void beforeClass(){
         apiObject = new SHAFT.API(restfulBookerApi.BASE_URL);
         restfulBookerApi = new RestfulBookerApi(apiObject);
         restfulBookerApiBooking = new RestfulBookerApiBooking(apiObject);
+        excelFileManager = new ExcelFileManager(System.getProperty("testDataFolderPath") + "login.xlsx");
+        jsonFileManager = new JSONFileManager(System.getProperty("testDataFolderPath") + "jsonfile.json");
 
-        restfulBookerApi.login("admin","password123");
+        restfulBookerApi.login(excelFileManager.getCellData("username"),
+                excelFileManager.getCellData("password"));
+
+//        restfulBookerApi.login(jsonFileManager.getTestData("username"),
+//                jsonFileManager.getTestData("password"));
     }
 
+
     //get list of booking ids
-    @Test
+    @Test(description = "Get all books id",priority = 1)
     public void getBookIds(){
         restfulBookerApiBooking.getBookIds();
     }
 
     //get specific book with details
-    @Test
+    @Test(description = "Get a specific book from id",priority = 2)
     public void getBooking(){
         restfulBookerApiBooking.getBooking("7");
     }
 
     //create booking with json object
-    @Test
+    @Test(description = "create a new Booking and assert the data",priority = 3)
     public void createBooking(){
         Response createBookingReq = restfulBookerApiBooking.createBooking("Josh","super bowls","2018-01-01","2019-01-01",
                 123,true,"Allen");
@@ -56,7 +67,7 @@ public class RestfulBooker {
 
 
     //delete book
-    @Test
+    @Test(description = "Delete a specific book from id",priority = 4)
     public void deleteBooking(){
         restfulBookerApiBooking.deleteBooking("8");
     }
