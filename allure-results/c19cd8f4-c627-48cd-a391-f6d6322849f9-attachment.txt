@@ -1,0 +1,11 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 1" test cases in the current suite
+Test Method:		"RestfulBookeroObjectModel.RestfulBooker.deleteBooking"
+Test Description:	"Delete a specific book from id"
+################################################################################################################################################
+[ReportManager] Response status code: "201", status line: "HTTP/1.1 201 Created" @16-04-2023 12:32:44.0180 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @16-04-2023 12:32:44.0180 PM
+[ReportManager] Perform request "DELETE | Target Status Code: 201 | Service URL: https://restful-booker.herokuapp.com/booking/8 | Content Type: */* | Response Time: 752ms". @16-04-2023 12:32:44.0191 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @16-04-2023 12:32:44.0191 PM
+[ReportManager] Successfully created attachment "API Response - Body" @16-04-2023 12:32:44.0192 P

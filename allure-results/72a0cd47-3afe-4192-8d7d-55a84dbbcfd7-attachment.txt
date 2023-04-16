@@ -1,0 +1,15 @@
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/login.xlsx"". @16-04-2023 12:32:34.0667 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/login.xlsx". @16-04-2023 12:32:35.0346 PM
+[ReportManager] Successfully created attachment "Test Data - Excel" @16-04-2023 12:32:35.0347 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/jsonfile.json"". @16-04-2023 12:32:35.0348 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/jsonfile.json"". @16-04-2023 12:32:35.0349 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/jsonfile.json"". @16-04-2023 12:32:35.0349 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/jsonfile.json". @16-04-2023 12:32:35.0350 PM
+[ReportManager] Successfully created attachment "Test Data - JSON" @16-04-2023 12:32:35.0351 PM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @16-04-2023 12:32:37.0693 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @16-04-2023 12:32:37.0700 PM
+[ReportManager] Perform request "POST | Target Status Code: 200 | Service URL: https://restful-booker.herokuapp.com/auth | Content Type: application/json | Response Time: 1340ms". @16-04-2023 12:32:38.0283 PM
+[ReportManager] Successfully created attachment "API Request - Specifications" @16-04-2023 12:32:38.0283 PM
+[ReportManager] Successfully created attachment "API Request - JSON Body" @16-04-2023 12:32:38.0284 PM
+[ReportManager] Successfully created attachment "API Response - JSON Body" @16-04-2023 12:32:38.0284 PM
+[ReportManager] Get response jsonvalue "token". @16-04-2023 12:32:38.0375 P

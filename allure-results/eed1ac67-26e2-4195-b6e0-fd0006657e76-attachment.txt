@@ -1,0 +1,195 @@
+[INFO ] 2023-04-16 12:32:33.594 [main] ReportManager - 
+################################################################################################################################################
+Detected SHAFT Engine Version: "SHAFT Engine v6.4.20221204"
+################################################################################################################################################
+[INFO ] 2023-04-16 12:32:33.965 [main] ReportManager - Loaded OpenCV "opencv_java455".
+[DEBUG] 2023-04-16 12:32:34.087 [main] Graph - [Graph] ADDING NODE RestfulBooker.beforeClass()[pri:0, instance:null] 327217297
+[DEBUG] 2023-04-16 12:32:34.087 [main] Graph - [Graph] ================ SORTING
+[DEBUG] 2023-04-16 12:32:34.089 [main] Graph - [Graph] =============== DONE SORTING
+[DEBUG] 2023-04-16 12:32:34.089 [main] Graph - [Graph] ====== SORTED NODES
+[DEBUG] 2023-04-16 12:32:34.089 [main] Graph - [Graph] ====== END SORTED NODES
+[DEBUG] 2023-04-16 12:32:34.095 [main] Graph - [Graph] ADDING NODE LogsHelper.setupActivities(org.testng.ITestContext)[pri:0, instance:null] 2146660425
+[DEBUG] 2023-04-16 12:32:34.096 [main] Graph - [Graph] ================ SORTING
+[DEBUG] 2023-04-16 12:32:34.096 [main] Graph - [Graph] =============== DONE SORTING
+[DEBUG] 2023-04-16 12:32:34.096 [main] Graph - [Graph] ====== SORTED NODES
+[DEBUG] 2023-04-16 12:32:34.096 [main] Graph - [Graph] ====== END SORTED NODES
+[DEBUG] 2023-04-16 12:32:34.097 [main] Graph - [Graph] ADDING NODE LogsHelper.teardownActivities()[pri:0, instance:null] -599874672
+[DEBUG] 2023-04-16 12:32:34.097 [main] Graph - [Graph] ================ SORTING
+[DEBUG] 2023-04-16 12:32:34.097 [main] Graph - [Graph] =============== DONE SORTING
+[DEBUG] 2023-04-16 12:32:34.097 [main] Graph - [Graph] ====== SORTED NODES
+[DEBUG] 2023-04-16 12:32:34.097 [main] Graph - [Graph] ====== END SORTED NODES
+[DEBUG] 2023-04-16 12:32:34.100 [main] Graph - [Graph] ADDING NODE LogsHelper.setupActivities(org.testng.ITestContext)[pri:0, instance:com.shaft.tools.listeners.LogsHelper@3751acd7] -1244904018
+[DEBUG] 2023-04-16 12:32:34.100 [main] Graph - [Graph] ================ SORTING
+[DEBUG] 2023-04-16 12:32:34.100 [main] Graph - [Graph] =============== DONE SORTING
+[DEBUG] 2023-04-16 12:32:34.100 [main] Graph - [Graph] ====== SORTED NODES
+[DEBUG] 2023-04-16 12:32:34.100 [main] Graph - [Graph] ====== END SORTED NODES
+[DEBUG] 2023-04-16 12:32:34.103 [main] Graph - [Graph] ADDING NODE RestfulBooker.deleteBooking()[pri:4, instance:RestfulBookeroObjectModel.RestfulBooker@733f1395] 997191313
+[DEBUG] 2023-04-16 12:32:34.104 [main] Graph - [Graph] ================ SORTING
+[DEBUG] 2023-04-16 12:32:34.104 [main] Graph - [Graph] =============== DONE SORTING
+[DEBUG] 2023-04-16 12:32:34.104 [main] Graph - [Graph] ====== SORTED NODES
+[DEBUG] 2023-04-16 12:32:34.104 [main] Graph - [Graph] ====== END SORTED NODES
+[DEBUG] 2023-04-16 12:32:34.105 [main] Graph - [Graph] ADDING NODE LogsHelper.teardownActivities()[pri:0, instance:com.shaft.tools.listeners.LogsHelper@3751acd7] -488146105
+[DEBUG] 2023-04-16 12:32:34.105 [main] Graph - [Graph] ================ SORTING
+[DEBUG] 2023-04-16 12:32:34.106 [main] Graph - [Graph] =============== DONE SORTING
+[DEBUG] 2023-04-16 12:32:34.106 [main] Graph - [Graph] ====== SORTED NODES
+[DEBUG] 2023-04-16 12:32:34.106 [main] Graph - [Graph] ====== END SORTED NODES
+[INFO ] 2023-04-16 12:32:34.110 [main] Utils - [TestNG] Running:
+  /Users/radwa/Library/Caches/JetBrains/IdeaIC2023.1/temp-testng-customsuite.xml
+
+[INFO ] 2023-04-16 12:32:34.132 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		"com.shaft.tools.listeners.LogsHelper.setupActivities"
+################################################################################################################################################
+[INFO ] 2023-04-16 12:32:34.147 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-04-16 12:32:34.287 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-04-16 12:32:34.609 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-04-16 12:32:34.616 [main] ReportManager - Initializing Custom Properties...
+[INFO ] 2023-04-16 12:32:34.661 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - 
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		"RestfulBookeroObjectModel.RestfulBooker.beforeClass"
+################################################################################################################################################
+[INFO ] 2023-04-16 12:32:34.667 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/login.xlsx"".
+[DEBUG] 2023-04-16 12:32:34.833 [TestNG-test=RestfulBooker_LinearDesign.java-1] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-04-16 12:32:34.836 [TestNG-test=RestfulBooker_LinearDesign.java-1] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-04-16 12:32:35.347 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - Successfully created attachment "Test Data - Excel"
+[INFO ] 2023-04-16 12:32:35.348 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/jsonfile.json"".
+[INFO ] 2023-04-16 12:32:35.349 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/jsonfile.json"".
+[INFO ] 2023-04-16 12:32:35.349 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/jsonfile.json"".
+[INFO ] 2023-04-16 12:32:35.351 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - Successfully created attachment "Test Data - JSON"
+[DEBUG] 2023-04-16 12:32:36.651 [TestNG-test=RestfulBooker_LinearDesign.java-1] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2023-04-16 12:32:36.716 [TestNG-test=RestfulBooker_LinearDesign.java-1] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2023-04-16 12:32:37.505 [TestNG-test=RestfulBooker_LinearDesign.java-1] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-04-16 12:32:37.506 [TestNG-test=RestfulBooker_LinearDesign.java-1] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-04-16 12:32:37.506 [TestNG-test=RestfulBooker_LinearDesign.java-1] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-04-16 12:32:37.507 [TestNG-test=RestfulBooker_LinearDesign.java-1] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-04-16 12:32:37.507 [TestNG-test=RestfulBooker_LinearDesign.java-1] DefaultHttpClient - Attempt 1 to execute request
+[DEBUG] 2023-04-16 12:32:37.507 [TestNG-test=RestfulBooker_LinearDesign.java-1] DefaultClientConnection - Sending request: POST /auth HTTP/1.1
+[DEBUG] 2023-04-16 12:32:37.507 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "POST /auth HTTP/1.1[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.508 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.508 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.508 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "Content-Length: 45[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.508 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.508 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.508 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.508 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.508 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.508 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> POST /auth HTTP/1.1
+[DEBUG] 2023-04-16 12:32:37.508 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> Accept: */*
+[DEBUG] 2023-04-16 12:32:37.508 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2023-04-16 12:32:37.508 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> Content-Length: 45
+[DEBUG] 2023-04-16 12:32:37.508 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2023-04-16 12:32:37.508 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-04-16 12:32:37.509 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+[DEBUG] 2023-04-16 12:32:37.509 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-04-16 12:32:37.509 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "{"password":"password123","username":"admin"}"
+[DEBUG] 2023-04-16 12:32:37.653 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.655 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.655 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.655 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.655 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.655 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Content-Length: 27[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.655 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Etag: W/"1b-dbhQzmWpRok1wQOkWcpdKeP5+Ag"[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.656 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Date: Sun, 16 Apr 2023 10:32:37 GMT[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.656 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.656 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "[\r][\n]"
+[DEBUG] 2023-04-16 12:32:37.656 [TestNG-test=RestfulBooker_LinearDesign.java-1] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2023-04-16 12:32:37.656 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << HTTP/1.1 200 OK
+[DEBUG] 2023-04-16 12:32:37.656 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << Server: Cowboy
+[DEBUG] 2023-04-16 12:32:37.657 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << Connection: keep-alive
+[DEBUG] 2023-04-16 12:32:37.657 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << X-Powered-By: Express
+[DEBUG] 2023-04-16 12:32:37.657 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2023-04-16 12:32:37.657 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << Content-Length: 27
+[DEBUG] 2023-04-16 12:32:37.657 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << Etag: W/"1b-dbhQzmWpRok1wQOkWcpdKeP5+Ag"
+[DEBUG] 2023-04-16 12:32:37.657 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << Date: Sun, 16 Apr 2023 10:32:37 GMT
+[DEBUG] 2023-04-16 12:32:37.657 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << Via: 1.1 vegur
+[DEBUG] 2023-04-16 12:32:37.660 [TestNG-test=RestfulBooker_LinearDesign.java-1] DefaultHttpClient - Connection can be kept alive indefinitely
+[DEBUG] 2023-04-16 12:32:37.666 [TestNG-test=RestfulBooker_LinearDesign.java-1] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2023-04-16 12:32:37.666 [TestNG-test=RestfulBooker_LinearDesign.java-1] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2023-04-16 12:32:37.693 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[DEBUG] 2023-04-16 12:32:37.717 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "{"token":"817e7ca7e346223"}"
+[DEBUG] 2023-04-16 12:32:37.718 [TestNG-test=RestfulBooker_LinearDesign.java-1] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2eac2562
+[DEBUG] 2023-04-16 12:32:37.718 [TestNG-test=RestfulBooker_LinearDesign.java-1] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2023-04-16 12:32:38.283 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - Successfully created attachment "API Request - Specifications"
+[INFO ] 2023-04-16 12:32:38.284 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - Successfully created attachment "API Request - JSON Body"
+[INFO ] 2023-04-16 12:32:38.284 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - Successfully created attachment "API Response - JSON Body"
+[DEBUG] 2023-04-16 12:32:38.371 [TestNG-test=RestfulBooker_LinearDesign.java-1] CompiledPath - Evaluating path: $['token']
+[INFO ] 2023-04-16 12:32:38.375 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - Get response jsonvalue "token".
+[ERROR] 2023-04-16 12:32:38.375 [TestNG-test=RestfulBooker_LinearDesign.java-1] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-04-16 12:32:38.376 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - Successfully created attachment "SHAFT Engine Logs - Current Method log: beforeClass"
+[INFO ] 2023-04-16 12:32:43.415 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - 
+################################################################################################################################################
+Starting Execution:	"1 out of 1" test cases in the current suite
+Test Method:		"RestfulBookeroObjectModel.RestfulBooker.deleteBooking"
+Test Description:	"Delete a specific book from id"
+################################################################################################################################################
+[DEBUG] 2023-04-16 12:32:43.441 [TestNG-test=RestfulBooker_LinearDesign.java-1] BasicClientConnectionManager - Get connection for route {s}->https://restful-booker.herokuapp.com:443
+[DEBUG] 2023-04-16 12:32:43.441 [TestNG-test=RestfulBooker_LinearDesign.java-1] DefaultClientConnectionOperator - Connecting to restful-booker.herokuapp.com:443
+[DEBUG] 2023-04-16 12:32:44.021 [TestNG-test=RestfulBooker_LinearDesign.java-1] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-04-16 12:32:44.021 [TestNG-test=RestfulBooker_LinearDesign.java-1] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-04-16 12:32:44.022 [TestNG-test=RestfulBooker_LinearDesign.java-1] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-04-16 12:32:44.022 [TestNG-test=RestfulBooker_LinearDesign.java-1] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-04-16 12:32:44.022 [TestNG-test=RestfulBooker_LinearDesign.java-1] DefaultHttpClient - Attempt 1 to execute request
+[DEBUG] 2023-04-16 12:32:44.022 [TestNG-test=RestfulBooker_LinearDesign.java-1] DefaultClientConnection - Sending request: DELETE /booking/8 HTTP/1.1
+[DEBUG] 2023-04-16 12:32:44.022 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "DELETE /booking/8 HTTP/1.1[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.022 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "Content-Type: */*; charset=UTF-8[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.022 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "cookie: token=817e7ca7e346223[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.022 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.022 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "Host: restful-booker.herokuapp.com[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.022 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.023 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.023 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.023 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  >> "[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.023 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> DELETE /booking/8 HTTP/1.1
+[DEBUG] 2023-04-16 12:32:44.023 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> Content-Type: */*; charset=UTF-8
+[DEBUG] 2023-04-16 12:32:44.023 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> cookie: token=817e7ca7e346223
+[DEBUG] 2023-04-16 12:32:44.023 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> Accept: */*
+[DEBUG] 2023-04-16 12:32:44.023 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> Host: restful-booker.herokuapp.com
+[DEBUG] 2023-04-16 12:32:44.023 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-04-16 12:32:44.023 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+[DEBUG] 2023-04-16 12:32:44.023 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "HTTP/1.1 201 Created[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Server: Cowboy[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "X-Powered-By: Express[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Content-Length: 7[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Date: Sun, 16 Apr 2023 10:32:44 GMT[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Via: 1.1 vegur[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "[\r][\n]"
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] DefaultClientConnection - Receiving response: HTTP/1.1 201 Created
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << HTTP/1.1 201 Created
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << Server: Cowboy
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << Connection: keep-alive
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << X-Powered-By: Express
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << Content-Type: text/plain; charset=utf-8
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << Content-Length: 7
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
+[DEBUG] 2023-04-16 12:32:44.178 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << Date: Sun, 16 Apr 2023 10:32:44 GMT
+[DEBUG] 2023-04-16 12:32:44.179 [TestNG-test=RestfulBooker_LinearDesign.java-1] headers - << Via: 1.1 vegur
+[DEBUG] 2023-04-16 12:32:44.179 [TestNG-test=RestfulBooker_LinearDesign.java-1] DefaultHttpClient - Connection can be kept alive indefinitely
+[DEBUG] 2023-04-16 12:32:44.179 [TestNG-test=RestfulBooker_LinearDesign.java-1] RestAssuredHttpBuilder - Parsing response as: text/plain; charset=utf-8
+[DEBUG] 2023-04-16 12:32:44.179 [TestNG-test=RestfulBooker_LinearDesign.java-1] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2023-04-16 12:32:44.180 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - Response status code: "201", status line: "HTTP/1.1 201 Created"
+[DEBUG] 2023-04-16 12:32:44.184 [TestNG-test=RestfulBooker_LinearDesign.java-1] wire -  << "Created"
+[DEBUG] 2023-04-16 12:32:44.184 [TestNG-test=RestfulBooker_LinearDesign.java-1] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@285ca09e
+[DEBUG] 2023-04-16 12:32:44.184 [TestNG-test=RestfulBooker_LinearDesign.java-1] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2023-04-16 12:32:44.191 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - Successfully created attachment "API Request - Specifications"
+[INFO ] 2023-04-16 12:32:44.192 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - Successfully created attachment "API Response - Body"
+[INFO ] 2023-04-16 12:32:44.194 [TestNG-test=RestfulBooker_LinearDesign.java-1] ReportManager - Successfully created attachment "SHAFT Engine Logs - Current Method log: deleteBooking"
+[INFO ] 2023-04-16 12:32:44.264 [main] ReportManager - 
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:		"com.shaft.tools.listeners.LogsHelper.teardownActivities"
+################################################################################################################################################
+[INFO ] 2023-04-16 12:32:44.270 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-04-16 12:32:44.270 [main] ReportManager - Successfully created attachment "SHAFT Engine Logs - Execution log"
+[INFO ] 2023-04-16 12:32:44.270 [main] ReportManager - 
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: "SHAFT Engine v6.4.20221204"
+SHAFT Engine is licensed under the MIT License: [https://github.com/ShaftHQ/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
+[INFO ] 2023-04-16 12:32:44.271 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-04-16 12:32:44.271 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
