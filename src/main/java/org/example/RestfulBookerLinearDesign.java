@@ -8,24 +8,24 @@ import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
 
-public class RestfulBooker_LinearDesign {
+public class RestfulBookerLinearDesign {
 
     @Test
-    public void getBookingIds(){
+    public void getBookingIds() {
 
-        SHAFT.API apiObject  = new SHAFT.API("https://restful-booker.herokuapp.com/");
+        SHAFT.API apiObject = new SHAFT.API("https://restful-booker.herokuapp.com/");
         apiObject.get("booking").setContentType(ContentType.JSON).perform();
     }
 
     @Test
-    public void getBooking(){
+    public void getBooking() {
 
         SHAFT.API apiObject = new SHAFT.API("https://restful-booker.herokuapp.com/");
         apiObject.get("booking/" + "8").setContentType(ContentType.JSON).perform();
     }
 
     @Test
-    public void createBooking(){
+    public void createBooking() {
 
         SHAFT.API apiObject = new SHAFT.API("https://restful-booker.herokuapp.com/");
 
@@ -43,8 +43,8 @@ public class RestfulBooker_LinearDesign {
         Response createBookingReq = apiObject.post("booking").setRequestBody(createBookingBody).
                 setContentType(ContentType.JSON).perform();
 
-        String bookingId = RestActions.getResponseJSONValue(createBookingReq,"bookingid");
-        apiObject.get("booking/"+ bookingId).perform();
+        String bookingId = RestActions.getResponseJSONValue(createBookingReq, "bookingid");
+        apiObject.get("booking/" + bookingId).perform();
 
         apiObject.assertThatResponse().extractedJsonValue("firstname").
                 isEqualTo("Josh").perform();
@@ -57,24 +57,22 @@ public class RestfulBooker_LinearDesign {
         apiObject.assertThatResponse().extractedJsonValue("bookingdates.checkout").
                 isEqualTo("2019-01-01").perform();
 
-        SHAFT.Validations.verifyThat().object("firstname").isEqualTo("Josh").perform();
-
     }
 
     @Test//(dependsOnMethods = {"createBooking"})
-    public void deleteBooking(){
+    public void deleteBooking() {
         SHAFT.API apiObject = new SHAFT.API("https://restful-booker.herokuapp.com/");
 
         JSONObject authentication = new JSONObject();
-        authentication.put("username" , "admin");
-        authentication.put("password" , "password123");
+        authentication.put("username", "admin");
+        authentication.put("password", "password123");
 
         Response createToken = apiObject.post("auth").
                 setContentType(ContentType.JSON).
                 setRequestBody(authentication).
                 perform();
 
-        String token = RestActions.getResponseJSONValue(createToken,"token");
+        String token = RestActions.getResponseJSONValue(createToken, "token");
 
 //        Response getBookingId = apiObject.get("booking").
 //                setContentType(ContentType.JSON).
