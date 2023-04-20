@@ -1,8 +1,8 @@
-# restful-booker_api_testautomation
+# first_project_api_testautomation
 
-* Implement a test automation framework using Shaft Engine and RestAssured for testing Restful Booker API
+* Implement a test automation framework using Shaft Engine and RestAssured for testing Restful Booker API and zippopotam API.
 
-* Implement modular design by Applying the Object Model design pattern (POM).
+* Implement modular design by Applying the Object Model design pattern (POM) And Linear Design.
 
 # Technologies
 
